@@ -3,11 +3,11 @@ nav {
     height: 100px;
 }
 
-nav h1 img {
+nav > img {
     width: 50px;
 }
 
-nav ul {
+nav > ul {
     font-size: 30px;
     text-decoration: none;
     list-style-type: none;
