@@ -4,6 +4,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
 }
 nav > h1 {
     font-size:0px;
@@ -44,12 +45,13 @@ nav ul li a:hover {
 footer {
     background-color: chartreuse;
     height: 200px;
+    position: fixed;
+    bottom: 0;
     font-size: 10px;
 }
 
-footer h2 {
+footer div {
     display: inline;
-    font-size: 10px;
 }
 
 
