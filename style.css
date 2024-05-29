@@ -45,7 +45,6 @@ nav ul li a:hover {
 
 .footer {
     background-color: cornflowerblue;
-    height: 200px;
     width: 100%;
     position: fixed;
     bottom: 0;
@@ -59,9 +58,7 @@ nav ul li a:hover {
     justify-content: space-around;
     align-items: flex-start;
     flex-wrap: wrap;
-    max-width: 1200px;
     margin: auto;
-    padding: 0 20px;
 }
 
 .footer-section {
