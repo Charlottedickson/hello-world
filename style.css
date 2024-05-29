@@ -63,6 +63,7 @@ footer div h2 {
 
 footer div h2 p {
     font-style: italic;
+    display: inline;
 }
 
 
