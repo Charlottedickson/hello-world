@@ -3,7 +3,6 @@ nav {
     height: 80px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
 }
 nav > h1 {
     font-size:0px;
@@ -11,6 +10,10 @@ nav > h1 {
 
 nav > img {
     width: 200px;
+}
+
+nav > div > img {
+    width: 20px;
 }
 
 nav ul {
