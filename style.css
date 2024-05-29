@@ -1,10 +1,11 @@
 nav {
     background-color: lemonchiffon;
     height: 70px;
+    top: 0;
+    left: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
 }
 nav > h1 {
     font-size:0px;
@@ -47,10 +48,11 @@ footer {
     height: 200px;
     position: fixed;
     bottom: 0;
+    left: 0;
     font-size: 10px;
 }
 
-footer div {
+footer div h2 {
     display: inline;
 }
 
