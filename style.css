@@ -55,10 +55,10 @@ nav ul li a:hover {
 
 .footer-box {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: flex-start;
     flex-wrap: wrap;
-    margin: auto;
+    padding: 20px 20px;
 }
 
 .footer-section {
