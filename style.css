@@ -1,14 +1,17 @@
 nav {
     background-color: lemonchiffon;
-    height: 100px;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-nav > img {
+nav > h1 < img {
     width: 50px;
 }
 
 nav > ul {
-    font-size: 30px;
+    font-size: 60px;
     text-decoration: none;
     list-style-type: none;
     margin: 0;
