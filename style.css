@@ -54,6 +54,7 @@ nav ul li a:hover {
 }
 
 .footer-box {
+    background-color: brown;
     display: flex;
     justify-content: space-around;
     align-items: flex-start;
