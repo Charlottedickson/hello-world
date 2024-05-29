@@ -1,23 +1,26 @@
 nav {
     background-color: lemonchiffon;
     height: 80px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+nav < h1 {
+    font-size:0px;
 }
 
-nav > h1 < img {
-    width: 50px;
+nav > img {
+    height: 60px;
 }
 
 nav > ul {
-    font-size: 60px;
-    text-decoration: none;
     list-style-type: none;
     margin: 0;
-    padding: 0;
-    
+    padding: 0; 
 }
-nav ul li{
-    display: inline;
+
+nav > ul > li > a {
+    display: block;
 }
+
+
