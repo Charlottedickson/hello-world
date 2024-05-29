@@ -1,25 +1,19 @@
 nav {
-    background-color: navy;
-    padding-left: 20px;
-    padding-right: 20px;
+    background-color: lemonchiffon;
     height: 100px;
 }
 nav h1 {
-    width: 100px;
-
+    width: 20px;
 }
-
-
 nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    font-size: 60px;
+    font-size: 30px;
 }
 nav ul li{
     display: inline;
 }
-
 nav ul li a {
     display: flex;
     justify-content: space-between;
