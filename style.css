@@ -15,6 +15,10 @@ nav > img {
     width: 100px;
 }
 
+nav > div > img {
+    width: 10px;
+}
+
 nav ul {
     list-style-type: none;
     margin: 0;
