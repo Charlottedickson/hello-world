@@ -44,12 +44,12 @@ nav ul li a:hover {
 footer {
     background-color: chartreuse;
     height: 200px;
-    display: inline;
     font-size: 10px;
 }
 
 footer h2 {
-    font-size: `0px;
+    display: inline;
+    font-size: 10px;
 }
 
 
