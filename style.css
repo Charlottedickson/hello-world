@@ -63,7 +63,11 @@ nav ul li a:hover {
 }
 
 /* ITEM */
+.item  img {
+    max-width: 100%;
+    height:auto;
 
+}
 .item > .item-info > .cart {
     background-color: rgb(38, 136, 136);
     padding: 10px 50px;
