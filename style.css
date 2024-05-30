@@ -1,3 +1,7 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 nav {
     background-color: lemonchiffon;
     height: 70px;
@@ -58,6 +62,20 @@ nav ul li a:hover {
     width: 100%;
 }
 
+.products > .product-card > .product-info > h5{
+    font-size: large;
+}
+
+.products > .product-card > .product-info > h6 + h7{
+    font-size: medium;
+}
+
+.products > .product-card > .product-info > h8{
+    justify-content: left;
+}
+
+
+/* FOOTER */
 .footer {
     background-color: cornflowerblue;
     width: 100%;
