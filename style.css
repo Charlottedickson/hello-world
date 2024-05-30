@@ -56,23 +56,10 @@ nav ul li a:hover {
 .products > .product-card {
     width: 400px;
     padding: 20px;
-    display: flex;
 }
 
 .products > .product-card > img {
     width: 100%;
-}
-
-.products > .product-card > .product-info > h2{
-    font-size: large;
-}
-
-.products > .product-card > .product-info > h3 + h4{
-    font-size: medium;
-}
-
-.products > .product-card > .product-info > h5 {
-    justify-content: left;
 }
 
 
