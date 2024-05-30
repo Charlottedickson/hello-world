@@ -70,19 +70,18 @@ nav ul li a:hover {
     flex-wrap: wrap;
 }
 
-.item > img {
-    width: 100px;
-    height: 100px;
+.item-image {
+    width: 100%;
 }
 
-.item > .item-info > .Add {
+.item > .item-info > .cart {
     background-color: aqua;
     padding: 10px 50px;
     text-decoration: none;
 }
 
 
-.item >.item-info > .Add:hover {
+.item >.item-info > .cart:hover {
     background-color: yellowgreen;
     border-radius: 5px;
 }
