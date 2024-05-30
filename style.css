@@ -66,6 +66,8 @@ nav ul li a:hover {
 
 .item {
     display: grid;
+    display: flex;
+    display: wrap;
     grid-template-columns:1fr 1fr;
 }
 
