@@ -56,6 +56,7 @@ nav ul li a:hover {
 .products > .product-card {
     width: 400px;
     padding: 20px;
+    display: flex;
 }
 
 .products > .product-card > img {
