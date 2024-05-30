@@ -64,15 +64,11 @@ nav ul li a:hover {
 
 /* ITEM */
 
-.item-image {
-    width:auto;
-}
 .item > .item-info > .cart {
     background-color: rgb(38, 136, 136);
     padding: 10px 50px;
     text-decoration: none;
 }
-
 
 .item >.item-info > .cart:hover {
     background-color: yellowgreen;
