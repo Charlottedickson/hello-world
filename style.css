@@ -63,7 +63,8 @@ nav ul li a:hover {
 }
 
 /* ITEM */
-.item  img {
+
+.item > img {
     max-width: 100%;
     height:auto;
 
@@ -86,7 +87,6 @@ nav ul li a:hover {
     width: 100%;
     bottom: 0;
     left: 0;
-    position: fixed;
     font-size: 10px;
     font-family: Arial, Helvetica, sans-serif;
 }
