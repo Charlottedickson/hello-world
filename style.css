@@ -65,22 +65,7 @@ nav ul li a:hover {
 /* ITEM */
 
 .item {
-    display: grid;
     display: flex;
-    display: wrap;
-    grid-template-columns:1fr 1fr;
-}
-
-.item.image {
-    grid-column: span 1;
-}
-
-.item-info {
-    grid-column: span 1;
-}
-
-.item-further {
-    grid-column: span 2;
 }
 
 .item > .item-info > .cart {
@@ -102,7 +87,7 @@ nav ul li a:hover {
     width: 100%;
     bottom: 0;
     left: 0;
-    position: absolute;
+    position: fixed;
     font-size: 10px;
     font-family: Arial, Helvetica, sans-serif;
 }
