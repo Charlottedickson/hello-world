@@ -72,16 +72,17 @@ nav ul li a:hover {
 
 .item > img {
     width: 100px;
+    height: 100px;
 }
 
-.item > .item-info > .add {
+.item > .item-info > .Add {
     background-color: aqua;
     padding: 10px 50px;
     text-decoration: none;
 }
 
 
-.item >.item-info > .add:hover {
+.item >.item-info > .Add:hover {
     background-color: yellowgreen;
     border-radius: 5px;
 }
