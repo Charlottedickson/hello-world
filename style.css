@@ -70,10 +70,6 @@ nav ul li a:hover {
     flex-wrap: wrap;
 }
 
-.item-image {
-    width: 100%;
-}
-
 .item > .item-info > .cart {
     background-color: aqua;
     padding: 10px 50px;
