@@ -39,8 +39,23 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    background-color:blue;
+    background-color: red;
     border-radius: 5px;
+}
+
+.products {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.products > .product-card {
+    width: 400px;
+    padding: 20px;
+}
+
+.products > .product-card > img {
+    width: 100%;
 }
 
 .footer {
