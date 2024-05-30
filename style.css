@@ -70,6 +70,10 @@ nav ul li a:hover {
     flex-wrap: wrap;
 }
 
+.item > .item-info > .add {
+    background-color: aqua;
+}
+
 
 /* FOOTER */
 .footer {
@@ -77,6 +81,7 @@ nav ul li a:hover {
     width: 100%;
     bottom: 0;
     left: 0;
+    position: absolute;
     font-size: 10px;
     font-family: Arial, Helvetica, sans-serif;
 }
