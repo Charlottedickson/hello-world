@@ -65,9 +65,20 @@ nav ul li a:hover {
 /* ITEM */
 
 .item {
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns:1fr 1fr;
+}
+
+.item.image {
+    grid-column: span 1;
+}
+
+.item-info {
+    grid-column: span 1;
+}
+
+.item-further {
+    grid-column: span 2;
 }
 
 .item > .item-info > .cart {
