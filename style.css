@@ -64,11 +64,25 @@ nav ul li a:hover {
 
 /* ITEM */
 
-.item > img {
-    max-width: 100%;
-    height:auto;
-
+.item {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
 }
+
+.item img {
+    flex: 1;
+}
+
+.item-info {
+    flex: 1;
+}
+
+.item-further {
+    flex: 2;
+}
+    
 .item > .item-info > .cart {
     background-color: rgb(38, 136, 136);
     padding: 10px 50px;
