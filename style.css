@@ -72,12 +72,7 @@ ol, ul {
     margin: 0;
     padding: 0;
 }
-  nav > ul{
-    display:flex;
-    flex-direction: row; 
-  }
-
-  nav li{
+.dropdown li{
     border: 1px black solid;
     padding: 0.5em 1em;
     width: 7em;
@@ -86,7 +81,7 @@ ol, ul {
     transform: translateX(-1em);
   }
 
-nav ul ul{
+.dropdown ul ul{
   transform: scale(1,0);
   transform-origin: top center;
   position: absolute;
@@ -100,7 +95,7 @@ nav ul ul{
 
 }
     
-nav li:hover ul{
+.dropdown li:hover ul{
   transform: scale(1,1);
   transform: scale(1,1);
   transition: 0.3s;
