@@ -20,11 +20,6 @@ nav ul {
     padding: 0; 
 }
 
-/*nav ul{
-    display:flex;
-    flex-direction: row; 
-  }*/
-
 nav > img {
     width: 250px;
 }
@@ -33,6 +28,20 @@ nav > div > img {
     width: 20px;
     padding: 10px 20px;
 }
+
+nav ul ul {
+    transform: scale(1,0);
+    transform-origin: top center;
+    position: absolute;
+    top: 100%;
+}
+
+
+
+/*nav ul{
+    display:flex;
+    flex-direction: row; 
+  }*/
 
 /* tabs
 nav div ul li a {
