@@ -85,13 +85,13 @@ nav ul ul{
     top:100%;
   }
     
-nav ul li:hover ul {
+nav ul li:hover {
     transform: scale(1,1);
     transform: scale(1,1);
     transition: 0.3s;
 }
 
-nav ul li:hover ul{
+nav ul li:hover {
     background-color: yellowgreen;
     border-radius: 5px;
 }
