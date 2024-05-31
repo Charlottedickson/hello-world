@@ -41,11 +41,19 @@ nav > div > img {
     text-decoration: none;
 
 }
-
 /*subtitles*/
 .navigation ul ul {
     background-color: plum;
 }
+
+.navigation li {
+    border: 1px black solid;
+    padding: 0.5em 1em;
+    width: 7em;
+    background-color: #00536D;
+    color: white;
+    transform: translateX(-1em);
+  }
 
 nav li a:hover ul ul{
     transform:scale(1,1);
