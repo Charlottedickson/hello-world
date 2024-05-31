@@ -127,20 +127,40 @@ nav ul li:hover {
     padding: 20px;
 }
 
+.item-info h2 {
+    margin-top: 0;
+}
+
+.price {
+    color:blueviolet;
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+.wishlist {
+    background-color: aqua;
+    boarder: 1px solid black;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.cart {
+    background-color: black;
+    boarder: 1px solid aqua;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.cart:hover {
+    background-color: pink;
+}
+
 .item-further {
     margin-top: 20px;
 }
     
-.item > .item-info > .cart {
-    background-color: rgb(38, 136, 136);
-    padding: 10px 50px;
-    text-decoration: none;
-}
-
-.item >.item-info > .cart:hover {
-    background-color: yellowgreen;
-    border-radius: 5px;
-}
 
 
 /* FOOTER */
