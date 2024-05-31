@@ -38,7 +38,7 @@ nav li{
     transform: translateX(-1em);
   }
 
-.navigation > ul {
+nav > ul {
     display: flex;
     flex-direction: row;
 }
