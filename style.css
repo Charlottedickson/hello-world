@@ -47,9 +47,10 @@ nav ul li {
 
 nav li{
     border: 1px black solid;
-    padding: 0.5em 1em;
+    padding: 2px;
     background-color: #00536D;
     color: white;
+    text-decoration: none;
   }
 
 /*nav ul ul{
