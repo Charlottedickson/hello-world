@@ -38,6 +38,7 @@ nav > div > img {
 nav ul li a {
     text-decoration: none;
     color: white;
+    padding: 2px;
 }
 
 nav li{
@@ -53,14 +54,15 @@ nav ul ul{
     transform-origin: top center;
     position: absolute;
     top:100%;
-  }
-/*  
+}
+
 nav ul ul:hover {
     transform: scale(1,1);
     transform: scale(1,1);
     transition: 0.3s;
 }
 
+/*
 nav ul li:hover {
     background-color: yellowgreen;
     border-radius: 5px;
