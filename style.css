@@ -12,13 +12,13 @@ ol, ul {
     padding: 0;
 }
 
-nav {
+/*nav {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     flex-direction: row;
-}
+}*/
 
 nav ul {
     list-style-type: none;
