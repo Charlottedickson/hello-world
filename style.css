@@ -41,6 +41,7 @@ nav > div > img {
     text-decoration: none;
 
 }
+
 /*subtitles*/
 nav ul ul {
     transform: scale(1,0);
@@ -50,7 +51,7 @@ nav ul ul {
     background-color: plum;
 }
 
-nav li a:hover ul{
+nav li a:hover ul ul{
     transform:scale(1,1);
     transition: 0.3s;
 }
