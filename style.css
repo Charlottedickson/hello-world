@@ -12,11 +12,11 @@ ol, ul {
     padding: 0;
 }
 
-nav > ul{
+nav ul{
     display:flex;
     flex-direction: row; 
   }
-  
+
 /*nav {
     display: flex;
     flex-wrap: wrap;
