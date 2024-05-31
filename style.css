@@ -34,25 +34,12 @@ nav {
     flex-direction: row;
 }
 
-nav > li {
+nav  li {
     border: 1px black solid;
     padding: 5px;
     background-color: pink;
     color: palevioletred;
 }
-
-nav ul ul{
-    transform: scale(1,0);
-    transform-origin: top center;
-    position: absolute;
-    top:100%;
-    transition: 0.3s;
-  }
-
-nav > li:hover ul{
-    transform: scale(1,1);
-    transition: 0.3s;
-  }
         
 
 /*nav ul{
