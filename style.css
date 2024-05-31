@@ -43,11 +43,12 @@ nav ul li a {
 }
 
 nav li{
-    border: 1px blue;
+    border: 3px blue;
     padding: 2px;
     background-color: pink;
     color: white;
     text-decoration: none;
+    transform: translatex(-1em);
   }
 
 /*nav ul ul{
