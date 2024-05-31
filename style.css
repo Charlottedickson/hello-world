@@ -69,10 +69,17 @@ nav ul ul{
     position: absolute;
     top:100%;
     left: 0;
-    transition: transform 0.3s;
+    
+  
+    transform: scale(1,0);
+    transform-origin: top center;
+    position: absolute;
+    top:100%;
+    transition: 0.3s;
 }
     
 nav ul li:hover > ul{
+    transform: scale(1,1);
     transform: scale(1,1);
     transition: 0.3s;
 }
