@@ -35,8 +35,7 @@ nav ul {
 }
 
 nav ul li {
-    display: inline-block;
-    position: relative;
+    display: inline;
 }
 
 nav ul li a {
@@ -45,90 +44,6 @@ nav ul li a {
     color:cadetblue;
     text-decoration: none;
 }
-
-/* DROPDOWN MENU */
-
-ol, ul {
-	list-style: none;
-    margin: 0;
-    padding: 0;
-}
-
-nav li{
-    border: 1px black solid;
-    padding: 0.5em 1em;
-    width: 7em;
-    background-color: #00536D;
-    color: white;
-    transform: translateX(-1em);
-  }
-
-nav ul ul{
-    transform: scale(1,0);
-    transform-origin: top center;
-    position: absolute;
-    top:100%;
-    left: 0;
-    
-  
-    transform: scale(1,0);
-    transform-origin: top center;
-    position: absolute;
-    top:100%;
-    transition: 0.3s;
-}
-    
-nav ul li:hover > ul{
-    transform: scale(1,1);
-    transform: scale(1,1);
-    transition: 0.3s;
-}
-
-nav ul li:hover {
-    background-color: yellowgreen;
-    border-radius: 5px;
-}
-
-
-/* ITEM */
-
-.item {
-    display: flex;
-    flex-wrap: wrap;
-    margin-bottom: 50px;
-}
-
-.item-image {
-    flex: 1;
-    min-width: 250px;
-    text-align: centre;
-}
-
-.item-image img {
-    max-width: 100%;
-    height: auto;
-}
-
-.item-info {
-    flex: 2;
-    padding: 20px;
-}
-
-.item-further {
-    margin-top: 20px;
-}
-    
-.item > .item-info > .cart {
-    background-color: rgb(38, 136, 136);
-    padding: 10px 50px;
-    text-decoration: none;
-}
-
-.item >.item-info > .cart:hover {
-    background-color: yellowgreen;
-    border-radius: 5px;
-}
-
 
 .products {
     display: flex;
