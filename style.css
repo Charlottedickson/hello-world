@@ -29,6 +29,10 @@ nav > div > img {
     padding: 10px 20px;
 }
 
+.navigation > ul {
+    display:flex;
+    flex-direction: row;
+}
 nav ul ul {
     transform: scale(1,0);
     transform-origin: top center;
@@ -36,6 +40,10 @@ nav ul ul {
     top: 100%;
 }
 
+nav li:hover ul{
+    transform:scale(1,1);
+    transition: 0.3s;
+}
 
 
 /*nav ul{
