@@ -72,6 +72,7 @@ ol, ul {
     margin: 0;
     padding: 0;
 }
+
 nav li{
     border: 1px black solid;
     padding: 0.5em 1em;
@@ -82,24 +83,23 @@ nav li{
   }
 
 nav ul ul{
-  transform: scale(1,0);
-  transform-origin: top center;
-  position: absolute;
-  top:100%;
+    transform: scale(1,0);
+    transform-origin: top center;
+    position: absolute;
+    top:100%;
   
-  transform: scale(1,0);
-  transform-origin: top center;
-  position: absolute;
-  top:100%;
-  transition: 0.3s;
+    transform: scale(1,0);
+    transform-origin: top center;
+    position: absolute;
+    top:100%;
+    transition: 0.3s;
 
 }
     
 nav li:hover ul{
-  transform: scale(1,1);
-  transform: scale(1,1);
-  transition: 0.3s;
-
+    transform: scale(1,1);
+    transform: scale(1,1);
+    transition: 0.3s;
 } 
 
 /* ITEM */
