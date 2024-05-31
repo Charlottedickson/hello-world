@@ -36,11 +36,18 @@ nav {
 
 nav li {
     border: 1px black solid;
-    padding: 2px;
+    padding: 5px;
     background-color: pink;
     color: palevioletred;
 }
 
+nav ul ul{
+    transform: scale(1,0);
+    transform-origin: top center;
+    position: absolute;
+    top:100%;
+  }
+        
 
 /*nav ul{
     display:flex;
