@@ -33,6 +33,11 @@ nav > div > img {
     display:flex;
     flex-direction: row;
 }
+
+.navigation > li {
+    background-color: pink;
+    padding: 3px;
+}
 nav ul ul {
     transform: scale(1,0);
     transform-origin: top center;
