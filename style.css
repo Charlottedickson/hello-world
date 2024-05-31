@@ -5,7 +5,18 @@ body {
 }
 
 /* NAVIGATION BAR */
+
 nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+
+
+/*nav {
     background-color: lemonchiffon;
     height: 70px;
     width: 100%;
@@ -75,7 +86,7 @@ nav ul ul:hover {
 nav ul li:hover {
     background-color: yellowgreen;
     border-radius: 5px;
-}*/
+}*/*/
 
 /* PRODUCS */
 .products {
