@@ -36,11 +36,11 @@ nav ul {
     padding: 0; 
 } */
 
-nav > img {
+nav  img {
     width: 250px;
 }
 
-nav > div > img {
+nav  .checkout-nav  img {
     width: 20px;
     padding: 10px 20px;
 }
