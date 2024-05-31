@@ -93,13 +93,13 @@ nav ul ul{
 
 }
     
-/*nav ul li:hover {
+nav ul li:hover ul {
     transform: scale(1,1);
     transform: scale(1,1);
     transition: 0.3s;
-}*/
+}
 
-nav ul li :hover {
+nav ul li:hover {
     background-color: yellowgreen;
     border-radius: 5px;
 }
