@@ -29,7 +29,14 @@ nav > div > img {
     padding: 10px 20px;
 }
 
-
+nav li{
+    border: 1px black solid;
+    padding: 0.5em 1em;
+    width: 7em;
+    background-color: pink;
+    color: white;
+    transform: translateX(-1em);
+  }
 
 /*nav ul{
     display:flex;
