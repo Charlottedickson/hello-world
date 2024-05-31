@@ -35,7 +35,8 @@ nav ul {
 }
 
 nav ul li {
-    display: inline;
+    display: inline-block;
+    position: relative;
 }
 
 nav ul li a {
@@ -43,23 +44,6 @@ nav ul li a {
     padding: 10px 20px;
     color:cadetblue;
     text-decoration: none;
-}
-
-
-
-.products {
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-}
-
-.products > .product-card {
-    width: 400px;
-    padding: 20px;
-}
-
-.products > .product-card > img {
-    width: 100%;
 }
 
 /* DROPDOWN MENU */
@@ -84,17 +68,11 @@ nav ul ul{
     transform-origin: top center;
     position: absolute;
     top:100%;
-  
-    transform: scale(1,0);
-    transform-origin: top center;
-    position: absolute;
-    top:100%;
-    transition: 0.3s;
-
+    left: 0;
+    transition: transform 0.3s;
 }
     
-nav ul li:hover ul {
-    transform: scale(1,1);
+nav ul li:hover > ul{
     transform: scale(1,1);
     transition: 0.3s;
 }
@@ -142,6 +120,22 @@ nav ul li:hover {
 .item >.item-info > .cart:hover {
     background-color: yellowgreen;
     border-radius: 5px;
+}
+
+
+.products {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.products > .product-card {
+    width: 400px;
+    padding: 20px;
+}
+
+.products > .product-card > img {
+    width: 100%;
 }
 
 
