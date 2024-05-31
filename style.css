@@ -22,7 +22,7 @@ nav > ul {
     flex-direction: row; 
   }
 
-/*nav {
+nav {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -30,7 +30,7 @@ nav > ul {
     flex-direction: row;
 }
 
-nav ul {
+/*nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0; 
