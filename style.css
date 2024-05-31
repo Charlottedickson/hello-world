@@ -99,7 +99,7 @@ nav ul ul{
     transition: 0.3s;
 }*/
 
-nav ul li a:hover {
+nav ul li :hover {
     background-color: yellowgreen;
     border-radius: 5px;
 }
