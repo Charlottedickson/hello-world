@@ -32,10 +32,6 @@ nav ul {
     padding: 0; 
 }
 
-/*nav ul li {
-    display: inline;
-}*/
-
 nav ul li a {
     display: inline-block;
     padding: 10px 20px;
@@ -56,7 +52,6 @@ nav li{
     padding: 0.5em 1em;
     background-color: #00536D;
     color: white;
-    transform: translateX(-1em);
   }
 
 /*nav ul ul{
