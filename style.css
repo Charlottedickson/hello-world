@@ -35,7 +35,7 @@ nav > div > img {
 }
 
 
-nav ul > li{
+nav ul li a{
     background-color: orange;
     text-decoration: none;
 }
