@@ -34,9 +34,9 @@ nav ul {
     padding: 0; 
 }
 
-nav ul li {
+/*nav ul li {
     display: inline;
-}
+}*/
 
 nav ul li a {
     display: inline-block;
