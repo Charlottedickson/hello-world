@@ -97,7 +97,7 @@ nav ul ul{
 
 }
     
-nav ul li a:hover ul{
+nav ul li a:hover {
     transform: scale(1,1);
     transform: scale(1,1);
     transition: 0.3s;
