@@ -39,6 +39,7 @@ nav ul li a {
     text-decoration: none;
     color: purple;
     padding: 2px;
+    border: purple;
 }
 
 nav li{
@@ -56,7 +57,7 @@ nav ul ul{
     top:100%;
 }
 
-nav ul li a:hover li{
+nav ul li a:hover ul{
     transform: scale(1,1);
     transform: scale(1,1);
     transition: 0.3s;
