@@ -93,17 +93,17 @@ nav ul ul{
 
 }
     
-nav ul li:hover {
+/*nav ul li:hover {
     transform: scale(1,1);
     transform: scale(1,1);
     transition: 0.3s;
-} 
+}*/
 
-/*nav ul li a:hover {
+nav ul li a:hover {
     background-color: yellowgreen;
     border-radius: 5px;
 }
-*/
+
 
 /* ITEM */
 
