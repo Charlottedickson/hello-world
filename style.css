@@ -4,7 +4,7 @@ body {
     margin: auto;
 }
 
-/* NAVIGATION BAR 
+/* NAVIGATION BAR */
 
 ol, ul {
 	list-style: none;
@@ -15,7 +15,6 @@ ol, ul {
 .navigation > ul {
     display:flex;
     flex-direction: row; 
-    background-color: pink;
   }
 
 /*nav {
