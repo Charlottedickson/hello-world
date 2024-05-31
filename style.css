@@ -15,9 +15,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     flex-direction: row;
-}
-nav > h1 {
-    font-size:0px;
+
 }
 nav > img {
     width: 250px;
@@ -45,22 +43,6 @@ nav ul li a {
     text-decoration: none;
 }
 
-
-.products {
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-}
-
-.products > .product-card {
-    width: 400px;
-    padding: 20px;
-}
-
-.products > .product-card > img {
-    width: 100%;
-}
-
 /* DROPDOWN MENU */
 
 ol, ul {
@@ -72,7 +54,6 @@ ol, ul {
 nav li{
     border: 1px black solid;
     padding: 0.5em 1em;
-    width: 7em;
     background-color: #00536D;
     color: white;
     transform: translateX(-1em);
@@ -95,6 +76,22 @@ nav ul li:hover {
     background-color: yellowgreen;
     border-radius: 5px;
 }*/
+
+/* PRODUCS */
+.products {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.products > .product-card {
+    width: 400px;
+    padding: 20px;
+}
+
+.products > .product-card > img {
+    width: 100%;
+}
 
 /* ITEM */
 
