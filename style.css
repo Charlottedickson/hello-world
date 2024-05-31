@@ -34,15 +34,19 @@ nav > div > img {
     flex-direction: row;
 }
 
+/*main menu titles*/
 .navigation li a {
     background-color: pink;
     padding: 3px;
+    text-decoration: none;
+
 }
-/*pnav ul ul {
+/nav ul ul {
     transform: scale(1,0);
     transform-origin: top center;
     position: absolute;
     top: 100%;
+    background-color: plum;
 }
 
 nav li:hover ul{
