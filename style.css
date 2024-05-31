@@ -169,16 +169,13 @@ nav ul li:hover {
     font-size: 0.9rem;
 }
 
-
 form{
-  width: 1000px;
-  display: grid;
-  grid-template-columns: 200px 1fr;
+  width: 8000px;
+  display: flexbox;
+  flex-wrap: wrap;
 }
 
-.terms{
-  grid-column: 1 / 1;
-}
+/*BUTTOMS */
 
 .buttons{
   display: flex;
