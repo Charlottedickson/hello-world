@@ -35,31 +35,7 @@ nav > div > img {
 }
 
 
-/*nav {
-    background-color: lemonchiffon;
-    height: 70px;
-    width: 100%;
-    top: 0;
-    left: 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-direction: row;
-
-}
-nav > img {
-    width: 250px;
-}
-
-
-
-
-
-
-
-nav ul li a {
-    display: inline-block;
-    padding: 10px 20px;
+nav ul li {
     color:cadetblue;
     text-decoration: none;
 }
