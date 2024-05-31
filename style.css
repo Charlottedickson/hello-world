@@ -20,10 +20,10 @@ nav ul {
     padding: 0; 
 }
 
-nav ul{
+/*nav ul{
     display:flex;
     flex-direction: row; 
-  }
+  }*/
 
 nav > img {
     width: 250px;
