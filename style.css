@@ -43,11 +43,7 @@ nav > div > img {
 }
 
 /*subtitles*/
-nav ul ul {
-    transform: scale(1,0);
-    transform-origin: top center;
-    position: absolute;
-    top: 100%;
+.navigation ul ul {
     background-color: plum;
 }
 
