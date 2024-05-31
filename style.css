@@ -41,7 +41,7 @@ nav > div > img {
     text-decoration: none;
 
 }
-/nav ul ul {
+nav ul ul {
     transform: scale(1,0);
     transform-origin: top center;
     position: absolute;
