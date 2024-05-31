@@ -34,33 +34,27 @@ nav > div > img {
     padding: 10px 20px;
 }
 
-
+/* tabs*/
 nav ul li a {
     text-decoration: none;
     color: white;
 }
 
-/*nav ul li {
-    color: red;
-    text-decoration: none;
-}*/
-
-
 nav li{
-    border: 1px black solid;
+    border: 1px blue;
     padding: 2px;
-    background-color: #00536D;
+    background-color: pink;
     color: white;
     text-decoration: none;
   }
 
-/*nav ul ul{
+nav ul ul{
     transform: scale(1,0);
     transform-origin: top center;
     position: absolute;
     top:100%;
   }
-    
+/*  
 nav ul ul:hover {
     transform: scale(1,1);
     transform: scale(1,1);
