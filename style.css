@@ -26,11 +26,16 @@ nav > div > img {
     padding: 10px 20px;
 }
 
-nav ul {
+/*nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0; 
-}
+}*/
+
+nav > ul{
+    display:flex;
+    flex-direction: row; 
+  }
 
 nav ul li a {
     display: inline-block;
