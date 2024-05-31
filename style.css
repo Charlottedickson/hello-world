@@ -29,6 +29,10 @@ nav > img {
     width: 250px;
 }
 
+nav > div > img {
+    width: 20px;
+    padding: 10px 20px;
+}
 
 
 /*nav {
@@ -47,10 +51,7 @@ nav > img {
     width: 250px;
 }
 
-nav > div > img {
-    width: 20px;
-    padding: 10px 20px;
-}
+
 
 
 
