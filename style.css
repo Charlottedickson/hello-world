@@ -45,10 +45,11 @@ nav ul li a {
     text-decoration: none;
 }
 
-nav ul li a:hover {
+/*nav ul li a:hover {
     background-color: yellowgreen;
     border-radius: 5px;
 }
+*/
 
 .products {
     display: flex;
