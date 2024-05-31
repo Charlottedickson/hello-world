@@ -35,7 +35,7 @@ nav > div > img {
 }
 
 /* tabs*/
-nav ul li a {
+nav div ul li a {
     text-decoration: none;
     color: purple;
     padding: 2px;
