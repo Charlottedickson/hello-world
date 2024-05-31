@@ -42,6 +42,7 @@ nav ul > li{
 
 nav ul li {
     color: red;
+    text-decoration: none;
 }
 
 /* DROPDOWN MENU */
