@@ -12,7 +12,7 @@ ol, ul {
     padding: 0;
 }
 
-nav ul{
+nav > ul > a{
     display:flex;
     flex-direction: row; 
   }
