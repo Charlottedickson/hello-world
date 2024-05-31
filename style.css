@@ -12,9 +12,10 @@ ol, ul {
     padding: 0;
 }
 
-nav > ul > a{
+nav > ul {
     display:flex;
     flex-direction: row; 
+    background-color: pink;
   }
 
 /*nav {
