@@ -83,13 +83,7 @@ nav ul ul{
     transform-origin: top center;
     position: absolute;
     top:100%;
-  
-    transform: scale(1,0);
-    transform-origin: top center;
-    position: absolute;
-    top:100%;
-    transition: 0.3s;
-}
+  }
     
 nav ul li:hover ul ul{
     transform: scale(1,1);
