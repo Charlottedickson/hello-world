@@ -46,7 +46,7 @@ nav ul ul{
     transform-origin: top center;
     position: absolute;
     top:100%;
-    transition: 0.2s;
+    transition: 0.3s;
   }
 
 nav li:hover ul{
