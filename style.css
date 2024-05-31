@@ -35,23 +35,15 @@ nav > div > img {
 }
 
 
-nav ul li a{
-    background-color: orange;
+/*nav ul li a {
     text-decoration: none;
 }
 
 nav ul li {
     color: red;
     text-decoration: none;
-}
+}*/
 
-/* DROPDOWN MENU */
-
-/*ol, ul {
-	list-style: none;
-    margin: 0;
-    padding: 0;
-}
 
 nav li{
     border: 1px black solid;
