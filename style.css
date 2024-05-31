@@ -173,6 +173,7 @@ form{
   width: 8000px;
   display: flex;
   flex-wrap: wrap;
+  flex-direction: column;
 }
 
 /*BUTTOMS */
