@@ -36,8 +36,8 @@ nav > ul {
 
 nav li{
     border: 1px black solid;
-    padding: 0.5em 1em;
-    width: 7em;
+    padding: 2px;
+    width: auto;
     background-color: pink;
     color: white;
     transform: translateX(-1em);
