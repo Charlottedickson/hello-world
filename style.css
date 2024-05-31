@@ -12,8 +12,12 @@ ol, ul {
     padding: 0;
 }
 
+.navigation {
+    color: pink;
+}
+
 .navigation > ul {
-    display:flex;
+    display: flex;
     flex-direction: row; 
   }
 
