@@ -171,14 +171,15 @@ nav ul li:hover {
 
 
 form{
-  width: 600px;
+  width: 1000px;
   display: grid;
   grid-template-columns: 200px 1fr;
 }
 
 .terms{
-  grid-column: 2 / 3;
+  grid-column: 1 / 1;
 }
+
 .buttons{
   display: flex;
   justify-content: right;
