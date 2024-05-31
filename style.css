@@ -12,27 +12,9 @@ ol, ul {
     padding: 0;
 }
 
-/*nav {
+.navigation > ul {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
     flex-direction: row;
-}*/
-
-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0; 
-}
-
-nav > img {
-    width: 250px;
-}
-
-nav > div > img {
-    width: 20px;
-    padding: 10px 20px;
 }
 
 nav li{
@@ -44,9 +26,29 @@ nav li{
     transform: translateX(-1em);
   }
 
-.navigation > ul {
+
+
+/*nav {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
     flex-direction: row;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0; 
+} */
+
+nav > img {
+    width: 250px;
+}
+
+nav > div > img {
+    width: 20px;
+    padding: 10px 20px;
 }
 
 /*nav ul{
