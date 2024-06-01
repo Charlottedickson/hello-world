@@ -41,8 +41,11 @@ nav li{
     background-color: pink;
     color: white;
     transform: translateX(-1em);
-    text-decoration: none;
   }
+
+nav li a {
+    text-decoration: none;
+}
 
 nav ul ul{
     transform: scale(1,0);
