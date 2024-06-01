@@ -42,8 +42,6 @@ nav li{
     width: 7em;
     background-color: pink;
     color: white;
-    transform: translateX(-1em);
-    align-content: center;
   }
 
 nav ul ul{
