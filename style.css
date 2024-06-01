@@ -32,16 +32,16 @@ ol, ul {
 nav > ul {
     display: flex;
     flex-direction: row; 
-    padding: 5px;
-    background-color: #1070FF;
   }
 
 nav li{
     border: 1px black solid;
     padding: 10px 1em;
     width: 7em;
+    gap: 5px;
     background-color: pink;
     color: white;
+    transform: translateX(-1em);
   }
 
 nav ul ul{
