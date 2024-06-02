@@ -27,6 +27,12 @@ nav {
     display: flex;
     justify-content: space space-between;
     flex-direction: row;
+    overflow: hidden;
+    background-color: #0151C8;
+}
+
+.topnav:hover {
+    background-color: orangered;
 }
 
 ol, ul {
