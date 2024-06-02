@@ -27,12 +27,6 @@ nav {
     display: flex;
     justify-content: space space-between;
     flex-direction: row;
-    overflow: hidden;
-    background-color: #0151C8;
-}
-
-.topnav:hover {
-    background-color: orangered;
 }
 
 ol, ul {
@@ -94,7 +88,7 @@ nav li:hover ul{
     }
   }
   
-  @media screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
     .topnav.responsive {position: relative;}
     .topnav.responsive .icon {
       position: absolute;
