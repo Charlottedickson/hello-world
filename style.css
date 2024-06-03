@@ -71,12 +71,12 @@ nav li:hover ul{
 
 /* RESPONSIVE MENU */
   
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 600px) {
     nav li {
       background-color: #0D6EFF;
     }
     
-    .header-right {
+    .topnav {
       float: none;
     }
   }
