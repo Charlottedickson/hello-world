@@ -4,7 +4,150 @@ body {
     margin: auto;
 }
 
-/* NAVIGATION BAR */
+/* NAVIGATION BAR TRIAL */
+
+nav  img {
+    width: 250px;
+}
+
+.checkout-nav img {
+    width: 20px;
+    padding: 10px 20px;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px
+}
+
+nav img:first-child {
+    height: 50px
+}
+
+.topnav ul {
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.topnav > ul > li{
+    position: relative;
+    display: inline-block; 
+  }
+
+.topnav > ul > li > a{
+    display: block;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;   
+    }   
+
+.topnav > ul ul {
+    display: none;
+    position: abolute;
+    top: 100%;
+    left: 0;
+    background-color: #444;
+    min-width: 200px;
+    border-radius: 0 0 5px 5px;
+}
+
+.topnav ul ul li {
+    display: block;
+}
+
+.topnav ul li:hover > ul {
+    display: block;
+}
+
+.checkout-nav img {
+    height: 40px;
+    margin-right: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+    nav {
+        flex-direction: column;
+    }
+
+    .checkout-nav {
+        margin-top: 10px;
+    }
+
+    .topnav ul ul {
+        top: auto;
+        left: 0;
+        width: 100%;
+        border-radius: 0;
+    }
+
+    .topnav ul ul li {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    .topnav ul ul li a {
+        padding: 10px 0;
+    }
+
+    .topnav ul ul li:hover {
+        background-color: #555;
+    }
+}
+    
+/* DROPDOWN MENU */
+
+nav ul ul{
+    transform: scale(1,0);
+    transform-origin: top center;
+    position: absolute;
+    top:100%;
+    transition: 0.3s;
+  }
+
+nav li:hover ul{
+    transform: scale(1,1);
+    transition: 0.3s;
+}
+
+/* RESPONSIVE MENU */
+  
+  
+/* MAIN HOME PAGE NAVIGATION */
+
+.genre-navigation{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    color: palevioletred;
+}
+
+.genre-card {
+    background-color: powderblue;
+}
+
+.genre-card img {
+    width: 250px;
+    height: 125px;
+}
+
+.consol-navigation{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    color: lightsalmon
+}
+
+.consol-card img {
+    width: 250px;
+    height: 125px;
+}
+/* NAVIGATION BAR 
 
 nav  img {
     width: 250px;
