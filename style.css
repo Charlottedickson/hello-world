@@ -218,6 +218,7 @@ nav li:hover ul{
 
 .checkout-container {
     display: flex;
+    width: 100%;
 }
 
 .shopping-cart {
