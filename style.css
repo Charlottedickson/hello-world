@@ -304,6 +304,11 @@ input[type="date"] {
     box-sizing: border-box;
 }
 
+.buttons {
+    text-align: center;
+    margin-top: 20px;
+}
+
 
 
 /*BUTTONS */
