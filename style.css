@@ -183,7 +183,7 @@ nav li:hover ul{
 
 .wishlist {
     background-color: aqua;
-    boarder: 1px solid black;
+    border: 1px solid black;
     padding: 10px 20px;
     font-size: 1em;
     cursor: pointer;
@@ -206,6 +206,7 @@ nav li:hover ul{
 }
 
 /* CHECKOUT FORM BUTTONS */
+
 .checkout-nav > .buttons {
     display: flex;
     justify-content: left;
@@ -214,6 +215,11 @@ nav li:hover ul{
 
 
 /* CHECKOUT TABLE */
+
+.shopping-cart {
+    table-layout: auto;
+    width: 100%;
+}
 
 
 /*BUTTONS */
