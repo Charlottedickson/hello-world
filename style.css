@@ -319,7 +319,7 @@ input[type="date"] {
 
 /* CONFIRMATION */
 
-body p {
+.Confirmation-of-purchase p {
     display: flex;
     justify-content: center;
     border: 1px black solid;
