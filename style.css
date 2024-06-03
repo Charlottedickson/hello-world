@@ -208,8 +208,6 @@ body > h2{
 
 /* CHECKOUT TABLE */
 
-
-
 .shopping-cart img {
     max-width: 50px;
     height: auto;
@@ -319,6 +317,16 @@ input[type="date"] {
     }
 }
 
+.checkout-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+
+.information {
+    flex: 1;
+
+}
 
 
 /*BUTTONS */
