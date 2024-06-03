@@ -42,10 +42,9 @@ ol, ul {
 
 nav li{
     border: 1px black solid;
-    padding: 10px 10px;
+    padding: 10px 1em;
     width: 7em;
-    background-color: pink;
-    color: white;
+    color: black;
     transform: translateX(-1em);
   }
 
