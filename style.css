@@ -109,12 +109,12 @@ nav li:hover ul{
     justify-content: space-evenly;
     flex-wrap: wrap;
     row-gap: 20px;
-    padding: 20px;
+    padding: 20px 0px;
 }
 
 .products > .product-card {
     width: 400px;
-    padding: 20px 0px;
+    padding: 20px;
 }
 
 .products > .product-card > img {
