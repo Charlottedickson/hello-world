@@ -114,16 +114,28 @@ nav li:hover ul{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    color: red;
+    color: palevioletred;
 }
 
 .genre-card {
-    background-color: yellow;
+    background-color: powderblue;
 }
 
 .genre-card img {
     width: 250px;
-    height: 75px;
+    height: 125px;
+}
+
+.consol-navigation{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    color: lightsalmon
+}
+
+.consol-card img {
+    width: 250px;
+    height: 125px;
 }
 
 /* PRODUCS */
