@@ -126,10 +126,12 @@ nav li:hover ul{
     border: 1px black solid;
     background-color: lightgray;
     border-radius: 4px;
+    text-decoration: none;
 }
 
 .product-info h2 {
     font-size: 18px;
+
 }
 
 .product-info h3 {
