@@ -323,15 +323,13 @@ input[type="date"] {
     margin: auto;
     width: 50%;
     border: 1px black solid;
-    padding: 10px;
+    padding: 50px;
 }
 
 .Confirmation-of-purchase p {
     display: flex;
-    justify-content: center;
-    
+    text-align: center;
     background-color:#ccc;
-    max-width: 80%;
 }
     
 
