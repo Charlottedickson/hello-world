@@ -71,16 +71,6 @@ nav li:hover ul{
 
 /* RESPONSIVE MENU */
   
-@media screen and (max-width: 600px) {
-    .topnav > ul {
-        display: block; 
-        }
-    }
-    
-    .topnav {
-      float: none;
-    }
-  }
   
 /* MAIN HOME PAGE NAVIGATION */
 
