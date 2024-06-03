@@ -21,6 +21,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     flex-direction: row;
+    background-color: rgb(166, 23, 23);
 }
 
 .topnav{
@@ -313,8 +314,6 @@ input[type="date"] {
         max-width: none;
     }
 }
-
-
 
 /*BUTTONS */
 
