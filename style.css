@@ -119,6 +119,19 @@ nav li:hover ul{
     width: 100%;
 }
 
+.product-card {
+    border: 1px black;
+    border-radius: 2px;
+}
+
+.item-info h2 {
+    font-size: 11px;
+}
+
+.item-info p {
+    font-weight: lighter;
+}
+
 /* ITEM */
 
 .item {
