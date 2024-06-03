@@ -166,6 +166,7 @@ body > h2{
     min-width: 200px;
     padding: 40px;
     text-align: centre;
+    border: 1px black solid;
 }
 
 .item-image img {
@@ -176,10 +177,12 @@ body > h2{
 .item-info {
     flex: 2;
     padding: 20px;
+    border: 1px black solid;
 }
 
 .item-info h2 {
     margin-top: 0;
+    
 }
 
 .price {
@@ -191,6 +194,7 @@ body > h2{
     margin-top: 20px;
     clear: both;
     padding: 20px;
+    border: 1px black solid;
 }
 
 
@@ -199,7 +203,7 @@ body > h2{
 .checkout-nav {
     display: flex;
     justify-content: left;
-    padding: 0px 50px;
+    padding: 50px 0px;
 }
 
 
