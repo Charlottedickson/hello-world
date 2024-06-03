@@ -320,13 +320,16 @@ input[type="date"] {
 /* CONFIRMATION */
 
 .Confirmation-of-purchase {
-    justify-content: center;
+    margin: auto;
+    width: 50%;
+    border: 1px black solid;
+    padding: 10px;
 }
 
 .Confirmation-of-purchase p {
     display: flex;
     justify-content: center;
-    border: 1px black solid;
+    
     background-color:#ccc;
     max-width: 80%;
 }
