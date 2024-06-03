@@ -189,6 +189,7 @@ body > h2{
 .item-further {
     margin-top: 20px;
     clear: both
+    padding: 20px;
 }
 
 
@@ -197,7 +198,7 @@ body > h2{
 .checkout-nav > .buttons {
     display: flex;
     justify-content: left;
-    grid-column: 1/3;
+    padding: 0px 50px;
 }
 
 
