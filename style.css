@@ -317,14 +317,9 @@ input[type="date"] {
     }
 }
 
-.checkout-container {
-    display: flex;
-    flex-wrap: wrap;
-    margin-bottom: 50px;
-}
 
 .information {
-    flex: 1;
+    display: flex;
 
 }
 
