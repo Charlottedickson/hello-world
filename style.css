@@ -113,14 +113,13 @@ nav li:hover ul{
 .genre-navigation{
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
+    justify-content: space-evenly;
     color: red;
 }
 
 .genre-card {
     background-color: yellow;
 }
-
 
 .genre-card img {
     width: 250px;
