@@ -205,15 +205,15 @@ nav li:hover ul{
     margin-top: 20px;
 }
 
+/* CHECKOUT FORM BUTTONS */
 .checkout-nav > .buttons {
     display: flex;
     justify-content: left;
     grid-column: 1/3;
-}
 
 
+/* CHECKOUT TABLE */
 
-/* CHECKOUT FORM BUTTONS */
 
 /*BUTTONS */
 
