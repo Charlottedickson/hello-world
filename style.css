@@ -207,8 +207,6 @@ nav li:hover ul{
 
 /* CHECKOUT FORM BUTTONS */
 
-
-
 .checkout-nav > .buttons {
     display: flex;
     justify-content: left;
@@ -274,6 +272,11 @@ nav li:hover ul{
 
 /* FORM */
 
+.checkout-container {
+    display: flex;
+    justify-content: space-between;
+}
+
 body, form, input, label {
     margin: 0;
     padding: 0;
@@ -296,6 +299,30 @@ h3 {
 label {
     display: block;
     margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-shadow: #ccc;
+    box-sizing: border-box;
+}
+
+.buttons {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
 }
 
 @media screen and (max-width: 768px) {
