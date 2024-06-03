@@ -2,37 +2,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     padding: 20px;
     margin: auto;
-}
-  
-  
-/* MAIN HOME PAGE NAVIGATION */
-
-.genre-navigation{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    color: palevioletred;
-}
-
-.genre-card {
-    background-color: powderblue;
-}
-
-.genre-card img {
-    width: 250px;
-    height: 125px;
-    border-radius: 5px;
-}
-
-.consol-navigation{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-}
-
-.consol-card img {
-    width: 250px;
-    height: 125px;
+    background-color:  #282C35;
 }
 
 /* NAVIGATION BAR */
@@ -98,6 +68,11 @@ nav ul ul{
 nav li:hover ul{
     transform: scale(1,1);
     transition: 0.3s;
+}
+
+.checkout-nav img {
+    height: 40px;
+    margin-right: 10px;
 }
 
 /* RESPONSIVE MENU */
