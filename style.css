@@ -217,7 +217,8 @@ nav li:hover ul{
 /* CHECKOUT TABLE */
 
 .checkout-container {
-    background-color: yellow;
+    justify-content: left;
+    display: flex;
 }
 
 .shopping-cart {
