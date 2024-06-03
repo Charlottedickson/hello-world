@@ -69,7 +69,7 @@ nav li:hover ul{
     transition: 0.3s;
 }
 
-/* RESPONSIVE HAMBURGER MENU */
+/* RESPONSIVE HAMBURGER MENU 
 
 .topnav a.active {
     background-color: #04AA6D;
