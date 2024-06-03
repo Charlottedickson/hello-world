@@ -41,7 +41,6 @@ ol, ul {
   }
 
 nav li{
-    border: 1px black solid;
     padding: 10px 1em;
     width: 7em;
     background-color: rgb(166, 23, 23);
