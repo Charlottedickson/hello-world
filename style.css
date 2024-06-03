@@ -272,10 +272,6 @@ nav li:hover ul{
 
 /* FORM */
 
-.checkout-container {
-    display: flex;
-    justify-content: space-between;
-}
 
 body, form, input, label {
     margin: 0;
@@ -312,17 +308,9 @@ input[type="date"] {
 }
 
 .buttons {
+    align-items: left;
     text-align: center;
     margin-top: 20px;
-}
-
-.btn {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #007bff;
-    color: #fff;
-    text-decoration: none;
-    border-radius: 5px;
 }
 
 @media screen and (max-width: 768px) {
@@ -331,7 +319,6 @@ input[type="date"] {
         max-width: none;
     }
 }
-
 
 
 /*BUTTONS */
