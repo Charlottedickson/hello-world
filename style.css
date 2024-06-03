@@ -71,9 +71,15 @@ nav li:hover ul{
 
 /* RESPONSIVE MENU */
   
-@media screen and (max-width: 600px) {
-    .topnav {background-color: blue;}
+@media screen and (max-width: 500px) {
+    .nav li {
+      background-color: #0D6EFF;
     }
+    
+    .header-right {
+      float: none;
+    }
+  }
   
 /* MAIN HOME PAGE NAVIGATION */
 
