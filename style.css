@@ -216,10 +216,20 @@ nav li:hover ul{
 
 /* CHECKOUT TABLE */
 
-.shopping-cart {
+.cart-container {
+    display: flex;
+    justify-content: space-between;
+}
+.shopping-cart table{
     table-layout: auto;
     width: 100%;
 }
+
+.shopping-cart-checkout {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+  }
 
 
 /*BUTTONS */
