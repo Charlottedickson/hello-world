@@ -218,6 +218,8 @@ nav li:hover ul{
 
 .cart-container {
     display: flex;
+    flex-direction: row;
+
 }
 
 
