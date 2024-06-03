@@ -32,7 +32,7 @@ nav {
 ol, ul {
 	list-style: none;
     margin: 0;
-    padding: 0;
+    padding: 5px;
 }
 
 .topnav > ul {
@@ -44,7 +44,8 @@ nav li{
     border: 1px black solid;
     padding: 10px 1em;
     width: 7em;
-    color: black;
+    background-color: rgb(166, 23, 23);
+    color: white;
     transform: translateX(-1em);
   }
 
