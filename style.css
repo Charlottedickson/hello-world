@@ -217,10 +217,9 @@ nav li:hover ul{
 /* CHECKOUT TABLE */
 
 .cart-container {
-    max-width: 800px;
     display: flex;
-    justify-content: space-between;
 }
+
 
 .shopping-cart {
     background-color: #E8F1FF;
