@@ -268,10 +268,6 @@ nav li:hover ul{
 
 /* FORM */
 
-.checkout-container {
-    display: flex;
-    justify-content: space-between;
-}
 
 body, form, input, label {
     margin: 0;
