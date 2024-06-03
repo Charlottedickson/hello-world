@@ -319,7 +319,9 @@ input[type="date"] {
     }
 }
 
-
+.information {
+    display: flex;
+}
 
 /*BUTTONS */
 
