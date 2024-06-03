@@ -336,7 +336,10 @@ input[type="date"] {
     font-size: larger;
 }
 
-.p
+.continue-shopping {
+    position: abolute;
+    left: 50%
+}
 
 
 /*BUTTONS */
