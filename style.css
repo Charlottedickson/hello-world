@@ -103,6 +103,7 @@ nav li:hover ul{
 }
 
 /* PRODUCS */
+
 .products {
     display: flex;
     justify-content: space-evenly;
