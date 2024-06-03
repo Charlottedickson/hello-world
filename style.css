@@ -270,6 +270,14 @@ nav li:hover ul{
     background-color: #f0f0f0;
   }
 
+/* FORM */
+
+body, form, input, label {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 /*BUTTONS */
 
 .buttons{
@@ -286,36 +294,40 @@ nav li:hover ul{
 }
 
 .btn-primary {
-    background-color: #fd0000;
+    background-color: #0D6EFF;
     color: white;
 }
 
 .btn-primary:hover {
-    background-color: #9e1717;
+    background-color: #0E64E4;
 }
 
 .btn-primary--hover {
-    background-color: #ea4545;
+body, form, input, label {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}   background-color: #0E64E4;
 }
 
 .btn-primary:active {
-    background-color: #d27171;
+    background-color: #0151C8;
 }
 
 .btn-primary--active {
-    background-color: #a84e4e;
+    background-color: #0151C8;
 }
 
 .btn-primary:focus {
-    background-color: #b12121;
-    border: 2px solid #d07f7f;
-    box-shadow: 0px 0px 5px #ffadad;
+    background-color: #1070FF;
+    border: 2px solid #7CAFFC;
+    box-shadow: 0px 0px 5px #adceff;
 }
 
 .btn-primary--focus {
-    background-color: #b85d5d00;
-    border: 2px solid #b31717;
-    box-shadow: 0px 0px 5px #d37676;
+    background-color: #1070FF;
+    border: 2px solid #7CAFFC;
+    box-shadow: 0px 0px 5px #adceff;
 }
 
 .btn-secondary {
@@ -341,13 +353,13 @@ nav li:hover ul{
 
 .btn-secondary:focus {
     background-color: #F3F8FF;
-    border: 2px solid #a52133;
+    border: 2px solid #92BEFF;
     box-shadow: 0px 0px 5px rgb(189, 213, 249);
 }
 
 .btn-secondary--focus {
     background-color: #F3F8FF;
-    border: 2px solid #c64561;
+    border: 2px solid #92BEFF;
     box-shadow: 0px 0px 5px rgb(189, 213, 249);
 }
 
@@ -355,7 +367,7 @@ nav li:hover ul{
 /* FOOTER */
 
 .footer {
-    background-color: rgb(166, 23, 23);;
+    background-color: cornflowerblue;
     width: 100%;
     bottom: 0;
     left: 0;
