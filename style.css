@@ -120,6 +120,7 @@ nav li:hover ul{
 .products > .product-card > img {
     width: 100%;
     border: black solid;
+    background-color: white;
 }
 
 .product-card {
