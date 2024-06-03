@@ -114,7 +114,7 @@ nav li:hover ul{
 
 .products > .product-card {
     width: 400px;
-    padding: 20px;
+    padding: 20px 0px;
 }
 
 .products > .product-card > img {
@@ -125,23 +125,23 @@ nav li:hover ul{
 .product-card {
     border: 1px black solid;
     background-color: lightgray;
-    border-radius: 2px;
+    border-radius: 4px;
 }
 
 .product-info h2 {
-    font-size: 11px;
+    font-size: 18px;
 }
 
 .product-info h3 {
-    font-size: 11px;
+    font-size: 15px;
 }
 
 .product-info h4 {
-    font-size: 11px;
+    font-size: 15px;
 }
 
 .product-info h5 {
-    font-size: 11px;
+    font-size: 18px;
 }
 
 /* ITEM */
