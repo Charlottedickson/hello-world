@@ -322,24 +322,21 @@ input[type="date"] {
 .Confirmation-of-purchase {
     margin: auto;
     width: 50%;
-    border: 1px black solid;
     padding: 50px;
-    margin-bottom: 300px;
+    margin-bottom: 200px;
 }
 
 .Confirmation-of-purchase h1 {
     text-decoration: underline;
+    text-align: center;
 }
 
 .Confirmation-of-purchase p {
     display: flex;
     text-align: center;
     font-size: larger;
-    
 }
 
-
-    
 
 /*BUTTONS */
 
