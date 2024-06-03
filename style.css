@@ -81,8 +81,9 @@ nav li:hover ul{
   }
 
 .topnav a i {
-    background-color: peru;
+    color: peru;
 }
+
 @media screen and (max-width: 600px) {
     .topnav a{
         display: none;
