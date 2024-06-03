@@ -216,11 +216,6 @@ nav li:hover ul{
 
 /* CHECKOUT TABLE */
 
-.checkout-container {
-    display: flex;
-    width: 100%;
-}
-
 .shopping-cart {
     background-color: #E8F1FF;
     border-radius: 5px;
