@@ -6,12 +6,12 @@ body {
 
 /* NAVIGATION BAR */
 
-nav img {
+nav a img {
     width: 250px;
     padding: 20px;
 }
 
-.checkout-nav img {
+.checkout-nav a img {
     width: 20px;
     padding: 10px 20px;
 }
