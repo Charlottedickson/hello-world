@@ -6,7 +6,7 @@ body {
 
 /* NAVIGATION BAR */
 
-nav  img {
+nav img {
     width: 250px;
 }
 
@@ -42,7 +42,7 @@ ol, ul {
 
 nav li{
     border: 1px black solid;
-    padding: 10px 1em;
+    padding: 10px 10px;
     width: 7em;
     background-color: pink;
     color: white;
