@@ -310,12 +310,7 @@ input[type="date"] {
     margin-top: 20px;
 }
 
-@media screen and (max-width: 768px) {
-    .Contact, .Shipping, .Payment {
-        width: 90%;
-        max-width: none;
-    }
-}
+
 
 /* CONFIRMATION */
 
