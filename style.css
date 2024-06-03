@@ -319,9 +319,8 @@ input[type="date"] {
     }
 }
 
-.checkout-container {
+.checkout-container > div{
     display: flex;
-    display: inline;
 }
 
 /*BUTTONS */
