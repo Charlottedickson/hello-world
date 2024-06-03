@@ -108,6 +108,18 @@ nav li:hover ul{
     }
   }
 
+/* MAIN HOME PAGE NAVIGATION */
+
+.genre-card{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.genre-card img {
+    width: 50px;
+    height: 25px;
+}
 
 /* PRODUCS */
 .products {
