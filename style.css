@@ -71,10 +71,7 @@ nav li:hover ul{
 
 .checkout-nav img {
     height: 20px;
-}
-
-/* RESPONSIVE MENU */
-  
+} 
   
 /* MAIN HOME PAGE NAVIGATION */
 
@@ -189,29 +186,16 @@ body > h2{
     margin: 10px 0;
 }
 
-.wishlist {
-    background-color: aqua;
-    border: 1px solid black;
-    padding: 10px 20px;
-    font-size: 1em;
-    cursor: pointer;
-}
-
-.cart {
-    background-color: black;
-    border: 1px solid aqua;
-    padding: 10px 20px;
-    font-size: 1em;
-    cursor: pointer;
-}
-
-.cart:hover {
-    background-color: pink;
-}
-
 .item-further {
     margin-top: 20px;
     clear: both
+}
+
+@media screen and (max-width: 768px) {
+    .Contact, .Shipping, .Payment {
+        width: 90%;
+        max-width: none;
+    }
 }
 
 /* CHECKOUT FORM BUTTONS */
