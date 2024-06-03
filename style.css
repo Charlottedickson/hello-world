@@ -216,11 +216,6 @@ nav li:hover ul{
 
 /* CHECKOUT TABLE */
 
-.cart-container {
-    display: flex;
-    flex-direction: row;
-
-}
 
 
 .shopping-cart {
