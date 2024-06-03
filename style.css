@@ -217,13 +217,35 @@ nav li:hover ul{
 /* CHECKOUT TABLE */
 
 .cart-container {
+    max-width: 800px;
     display: flex;
     justify-content: space-between;
 }
+
+.shopping-cart {
+    background-color: #E8F1FF;
+    border-radius: 5px;
+    padding: 20px;
+}
 .shopping-cart table{
+    border-collapse: collapse;
     table-layout: auto;
     width: 100%;
 }
+
+.shopping-cart-cart th,
+.shopping-cart-cart td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+  }
+
+.shopping-cart img {
+    max-width: 50px;
+    height: auto;
+    display: block;
+    margin-right: 10px;
+  }
 
 .shopping-cart-checkout {
     background-color: #f9f9f9;
@@ -235,6 +257,17 @@ nav li:hover ul{
     width: 100%;
     border-collapse: collapse;
     margin-bottom: 20px;
+  }
+
+.shopping-cart-checkout th,
+.shopping-cart-checkout td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+  }
+
+  .shopping-cart-checkout th {
+    background-color: #f0f0f0;
   }
 
 /*BUTTONS */
