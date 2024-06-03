@@ -72,7 +72,7 @@ nav li:hover ul{
 /* RESPONSIVE MENU */
   
 @media screen and (max-width: 600px) {
-    .topnav {
+    .topnav > ul {
         display: block; 
         }
     }
