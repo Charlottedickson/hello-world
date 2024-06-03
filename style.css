@@ -231,6 +231,11 @@ nav li:hover ul{
     border-radius: 5px;
   }
 
+.shopping-cart-checkout table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
 
 /*BUTTONS */
 
