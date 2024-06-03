@@ -217,7 +217,6 @@ nav li:hover ul{
 /* CHECKOUT TABLE */
 
 .checkout-container {
-    justify-content: left;
     display: flex;
 }
 
