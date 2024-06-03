@@ -71,8 +71,8 @@ nav li:hover ul{
 
 /* RESPONSIVE MENU */
   
-@media screen and (max-width: 500px) {
-    .nav li {
+@media screen and (max-width: 390px) {
+    nav li {
       background-color: #0D6EFF;
     }
     
