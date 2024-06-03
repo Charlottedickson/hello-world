@@ -191,12 +191,6 @@ body > h2{
     clear: both
 }
 
-@media screen and (max-width: 768px) {
-    .Contact, .Shipping, .Payment {
-        width: 90%;
-        max-width: none;
-    }
-}
 
 /* CHECKOUT FORM BUTTONS */
 
