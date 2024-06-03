@@ -216,7 +216,9 @@ nav li:hover ul{
 
 /* CHECKOUT TABLE */
 
-
+.checkout-container {
+    background-color: yellow;
+}
 
 .shopping-cart {
     background-color: #E8F1FF;
