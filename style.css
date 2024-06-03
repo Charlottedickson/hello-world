@@ -207,10 +207,7 @@ nav li:hover ul{
 
 /* CHECKOUT FORM BUTTONS */
 
-.checkout-container {
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-}
+
 
 .checkout-nav > .buttons {
     display: flex;
