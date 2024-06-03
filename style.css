@@ -278,6 +278,16 @@ body, form, input, label {
     box-sizing: border-box;
 }
 
+.Contact, .Shipping, .Payment {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+
+
 /*BUTTONS */
 
 .buttons{
